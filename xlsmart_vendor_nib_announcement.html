@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pengumuman Kepatuhan NIB – PT XLSMART Telecom</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0f2f5;
+    min-height: 100vh;
+    padding: 24px 12px;
+    color: #1a1a2e;
+  }
+  .page {
+    max-width: 820px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #dde1ea;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  }
+  .header {
+    background: #001F5B;
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .header-left { display: flex; align-items: center; gap: 20px; }
+  .logo-wrap {
+    background: #fff;
+    border-radius: 6px;
+    padding: 7px 14px;
+    display: flex;
+    align-items: center;
+  }
+  .logo-wrap img { height: 34px; width: auto; display: block; }
+  .header-dept {
+    color: rgba(255,255,255,0.80);
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 1.4;
+  }
+  .header-dept strong {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .header-date {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    font-size: 11px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    white-space: nowrap;
+    border: 1px solid rgba(255,255,255,0.22);
+    letter-spacing: 0.3px;
+    flex-shrink: 0;
+  }
+  .alert-bar {
+    background: #FFFBEB;
+    border-bottom: 1px solid #FDE68A;
+    padding: 10px 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .alert-icon { flex-shrink: 0; margin-top: 1px; width: 16px; height: 16px; fill: #B45309; }
+  .alert-bar p { font-size: 12px; color: #78350F; line-height: 1.55; font-weight: 500; }
+  .body { padding: 28px 32px 32px; }
+  .meta-row { margin-bottom: 20px; border-left: 3px solid #001F5B; padding-left: 12px; border-radius: 0; }
+  .meta-row p { font-size: 13px; color: #374151; line-height: 1.8; }
+  .meta-row p strong { color: #001F5B; }
+  .intro { font-size: 13px; color: #4B5563; line-height: 1.75; margin-bottom: 26px; }
+  .section-label {
+    font-size: 10.5px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 1.2px; color: #6B7280; margin-bottom: 12px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .section-label::after { content: ''; flex: 1; height: 1px; background: #E5E7EB; }
+  .policy-list { display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
+  .policy-card {
+    display: flex; gap: 14px; padding: 14px 16px;
+    border: 1px solid #E5E7EB; border-radius: 8px; background: #FAFAFA;
+  }
+  .policy-num {
+    width: 30px; height: 30px; background: #001F5B; color: #fff;
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+  }
+  .policy-card h4 { font-size: 13px; font-weight: 700; color: #111827; margin-bottom: 5px; }
+  .policy-card p { font-size: 12.5px; color: #4B5563; line-height: 1.65; }
+  .important-box {
+    background: #FEF2F2; border: 1px solid #FCA5A5;
+    border-left: 4px solid #DC2626; border-radius: 0 6px 6px 0;
+    padding: 14px 18px; margin-bottom: 26px;
+  }
+  .important-label {
+    font-size: 10.5px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: 1.2px; color: #DC2626; margin-bottom: 7px;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .important-box p { font-size: 12.5px; color: #7F1D1D; line-height: 1.68; margin-bottom: 10px; }
+  .important-box p:last-child { margin-bottom: 0; }
+  .contact-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 12px; color: #1D4ED8; text-decoration: none; font-weight: 500;
+  }
+  .contact-link:hover { text-decoration: underline; }
+  .contact-link svg { width: 14px; height: 14px; fill: #1D4ED8; flex-shrink: 0; }
+  .closing { font-size: 13px; color: #4B5563; line-height: 1.72; margin-bottom: 30px; }
+  .sign-block { display: flex; justify-content: flex-end; padding-top: 20px; border-top: 1px solid #E5E7EB; }
+  .sign-inner { text-align: center; min-width: 200px; }
+  .sign-inner .salut { font-size: 12px; color: #6B7280; margin-bottom: 60px; }
+  .sign-inner .sign-line { border-top: 1px solid #374151; padding-top: 6px; margin-bottom: 2px; }
+  .sign-inner .company-name { font-size: 13px; font-weight: 700; color: #001F5B; }
+  .sign-inner .dept-name { font-size: 11px; color: #6B7280; margin-top: 2px; }
+  .footer {
+    background: #001F5B; padding: 11px 32px;
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 12px; flex-wrap: wrap;
+  }
+  .footer span { font-size: 10.5px; color: rgba(255,255,255,0.55); letter-spacing: 0.2px; }
+  .footer .doc-code { font-family: 'Courier New', monospace; font-size: 10px; color: rgba(255,255,255,0.35); }
+  @media (max-width: 600px) {
+    body { padding: 0; }
+    .page { border-radius: 0; border: none; box-shadow: none; }
+    .header { padding: 14px 16px; flex-wrap: wrap; }
+    .body { padding: 20px 16px 24px; }
+    .footer { padding: 10px 16px; }
+    .alert-bar { padding: 10px 16px; }
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .page { box-shadow: none; border: 1px solid #ccc; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="header">
+    <div class="header-left">
+      <div class="logo-wrap">
+        <img src="data:image/webp;base64,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" alt="XLSMART logo">
+      </div>
+      <div class="header-dept">
+        <strong>Procurement &amp; Vendor Management</strong>
+        Pengumuman Resmi kepada Rekanan / Vendor
+      </div>
+    </div>
+    <div class="header-date">11 Juni 2025</div>
+  </div>
+
+  <div class="alert-bar">
+    <svg class="alert-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+    </svg>
+    <p>Pengumuman Resmi — Berlaku efektif sejak tanggal diterbitkan. Wajib diperhatikan dan dipatuhi oleh seluruh rekanan/vendor aktif PT XLSMART Telecom.</p>
+  </div>
+
+  <div class="body">
+
+    <div class="meta-row">
+      <p><strong>Kepada:</strong> Seluruh Rekanan / Vendor PT XLSMART Telecom</p>
+      <p><strong>Perihal:</strong> Kepatuhan Ruang Lingkup Pekerjaan terhadap Nomor Induk Berusaha (NIB)</p>
+    </div>
+
+    <p class="intro">
+      Dengan hormat, kami mengucapkan terima kasih atas kerja sama dan kemitraan yang terjalin dengan baik bersama PT XLSMART Telecom selama ini. Dalam rangka meningkatkan tata kelola perusahaan yang baik (<em>Good Corporate Governance</em>) serta memastikan kepatuhan terhadap regulasi pemerintah yang berlaku, manajemen PT XLSMART Telecom menetapkan kebijakan tegas terkait legalitas usaha rekanan sebagai berikut:
+    </p>
+
+    <div class="section-label">Kebijakan Legalitas Usaha Rekanan</div>
+
+    <div class="policy-list">
+      <div class="policy-card">
+        <div class="policy-num">1</div>
+        <div>
+          <h4>Kesesuaian Scope Kerja dengan NIB</h4>
+          <p>Setiap rekanan/vendor wajib memastikan bahwa seluruh ruang lingkup (<em>scope</em>) pekerjaan yang dijalankan untuk PT XLSMART Telecom harus sesuai dengan Klasifikasi Baku Lapangan Usaha Indonesia (KBLI) yang tercantum dalam Nomor Induk Berusaha (NIB) perusahaan rekanan yang masih berlaku.</p>
+        </div>
+      </div>
+      <div class="policy-card">
+        <div class="policy-num">2</div>
+        <div>
+          <h4>Kewajiban Pembaruan Data <em>(Regular Update)</em></h4>
+          <p>Rekanan diwajibkan untuk melakukan pembaruan (<em>update</em>) data legalitas secara berkala kepada tim Procurement / Vendor Management PT XLSMART Telecom apabila terdapat perubahan, penambahan, atau perpanjangan pada dokumen NIB maupun perizinan berusaha lainnya.</p>
+        </div>
+      </div>
+      <div class="policy-card">
+        <div class="policy-num">3</div>
+        <div>
+          <h4>Sanksi Pembekuan <em>(Freeze)</em> Vendor</h4>
+          <p>PT XLSMART Telecom akan melakukan audit dan monitoring secara berkala. Apabila ditemukan vendor yang melakukan pekerjaan tidak sesuai dengan NIB yang terdaftar, maka PT XLSMART Telecom akan langsung melakukan pembekuan akun vendor (<em>freeze</em>) tanpa pengecualian, dan kerja sama dapat dihentikan sementara hingga legalitas disesuaikan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="important-box">
+      <div class="important-label">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="#DC2626" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        Penting
+      </div>
+      <p>Kebijakan ini berlaku efektif sejak tanggal pengumuman ini diterbitkan. Mohon segera melakukan <strong>pengecekan mandiri (self-assessment)</strong> terhadap kesesuaian NIB Anda dengan kontrak kerja aktif saat ini.</p>
+      <p>Jika ada pertanyaan atau memerlukan koordinasi lebih lanjut terkait pembaruan data ini, silakan menghubungi tim Vendor Management PT XLSMART Telecom melalui:</p>
+      <a class="contact-link" href="mailto:vmhelpdesk@xlsmart.co.id">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        vmhelpdesk@xlsmart.co.id
+      </a>
+    </div>
+
+    <p class="closing">Demikian pengumuman ini kami sampaikan untuk menjadi perhatian dan dipatuhi sebagaimana mestinya. Atas kerja sama dan pengertiannya, kami ucapkan terima kasih.</p>
+
+    <div class="sign-block">
+      <div class="sign-inner">
+        <p class="salut">Hormat kami,</p>
+        <div class="sign-line"></div>
+        <div class="company-name">PT XLSMART Telecom</div>
+        <div class="dept-name">Manajemen Procurement &amp; Vendor Management</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <span>PT XLSMART Telecom &mdash; Dokumen Resmi</span>
+    <span>Pengumuman Kepatuhan NIB &bull; Juni 2025</span>
+    <span class="doc-code">VM-ANN-2025-001</span>
+  </div>
+
+</div>
+</body>
+</html>
